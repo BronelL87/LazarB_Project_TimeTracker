@@ -9,5 +9,7 @@
 ### Peer Review
 
 **Reviewer**: 
+Darryl Patton
 
 **Reviewer Notes**: 
+Solid attempt. I like how you were able to get the icons on the cards. I had trouble doing that. The font is pretty similar also. The site can use better responsiveness. The cards could be dne better. But good job
