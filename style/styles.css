@@ -1,0 +1,239 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #0f1424;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.EMC {
+  fill: #bbc0ff;
+  margin-left: 9.7rem;
+}
+.EMCS {
+  fill: #bbc0ff;
+  margin-left: 8rem;
+}
+.EMC:hover {
+  fill: #ffffff;
+}
+.EMCS:hover {
+  fill: #ffffff;
+}
+.TCS{
+  margin-bottom: 5rem;
+}
+
+.MCF {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 1200px;
+}
+
+.PBG {
+  background-color: #5746ea;
+  color: white;
+  padding: 2rem;
+  flex: 1 1 20%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.PIMG {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.move{
+  margin-left: 12rem;
+}
+.ICWW {
+  position: absolute;
+  top: -65px;
+  margin-left: -1.5rem;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: #FF8B64;
+  width: 17.7rem;
+}
+.ICWP {
+  position: absolute;
+  top: -65px;
+  margin-left: -1.5rem;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: #55C2E6;
+  width: 17.7rem;
+}
+.ICWS {
+  position: absolute;
+  top: -65px;
+  margin-left: -1.5rem;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: #FF5E7D;
+  width: 17.7rem;
+}
+.ICWE {
+  position: absolute;
+  top: -65px;
+  margin-left: -1.5rem;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: #4BCF82;
+  width: 17.7rem;
+}
+.ICWSL {
+  position: absolute;
+  top: -65px;
+  margin-left: -1.5rem;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: #7335D2;
+  width: 17.7rem;
+}
+.ICWSC {
+  position: absolute;
+  top: -65px;
+  margin-left: -1.5rem;
+  border-radius: 10px;
+  z-index: -1;
+  opacity: 0.7;
+  background-color: #F1C75B;
+  width: 17.7rem;
+}
+
+.PFI h1 {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.PFI h2 {
+  font-size: 1.5rem;
+}
+
+.TBTNS {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c204b;
+  width: 13rem;
+}
+
+.TBTNS button {
+  background: none;
+  color: #7078c9;
+  border: none;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+#btn-daily.active, #btn-weekly.active, #btn-monthly.active {
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+
+
+
+.CCM {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  flex: 1 1 75%;
+}
+
+.CEM {
+  background-color: #1d204b;
+  border-radius: 15px;
+  padding: 1.5rem;
+  flex: 1 1 30%;
+  position: relative;
+  color: white;
+}
+
+.CEM .category {
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.CEM .hours {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.CEM .previous {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+.CEM:hover {
+  background-color: #33397a;
+  cursor: pointer;
+}
+.TBTNS button:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 425px) {
+  .MCF {
+    flex-direction: column;
+  }
+
+  .PBG,
+  .CCM {
+    flex: 1 1 100%;
+  }
+
+  .CEM {
+    flex: 1 1 100%;
+  }
+
+  .TBTNS {
+    width: 100%;
+    flex-direction: row;
+  }
+  .BCS{
+    margin-bottom: 5rem;
+  }
+
+  .ICWW {
+    width: 24.8rem;
+  }
+  .ICWP {
+    width: 24.8rem;
+  }
+  .ICWS {
+    width: 24.8rem;
+  }
+  .ICWE {
+    width: 24.8rem;
+  }
+  .ICWSL {
+    width: 24.8rem;
+  }
+  .ICWSC {
+    width: 24.8rem;
+  }
+  .move{
+    margin-left: 19rem;
+  }
+  .EMC {
+    margin-left: 17rem;
+  }
+  .EMCS {
+    margin-left:15rem;
+  }
+}
